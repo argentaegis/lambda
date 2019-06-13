@@ -1,0 +1,14 @@
+{
+    "lambda": {
+        "awscloudformation": {
+            "AuthRoleName": "lambda-lambda-20190613130104-authRole",
+            "UnauthRoleArn": "arn:aws:iam::042947441236:role/lambda-lambda-20190613130104-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::042947441236:role/lambda-lambda-20190613130104-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "lambda-lambda-20190613130104-deployment",
+            "UnauthRoleName": "lambda-lambda-20190613130104-unauthRole",
+            "StackName": "lambda-lambda-20190613130104",
+            "StackId": "arn:aws:cloudformation:us-east-1:042947441236:stack/lambda-lambda-20190613130104/3552a4a0-8e05-11e9-9073-0ec11b444504"
+        }
+    }
+}

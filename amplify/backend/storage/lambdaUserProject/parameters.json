@@ -1,0 +1,5 @@
+{
+    "tableName": "lambdaUserProject",
+    "partitionKeyName": "id",
+    "partitionKeyType": "S"
+}
