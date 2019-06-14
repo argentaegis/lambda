@@ -1,5 +1,0 @@
-{
-    "tableName": "lambdaUser",
-    "partitionKeyName": "id",
-    "partitionKeyType": "S"
-}

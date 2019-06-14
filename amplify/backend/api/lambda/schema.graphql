@@ -1,0 +1,21 @@
+type User @model {
+ id: ID!
+ name: String
+ projects: [ProjectMembership] @connection(name: "userProjectMembership")
+}
+
+type Project @model {
+  id: ID!
+  name: String!
+  users: [ProjectMembership] @connection(name: "projectProjectMembership")
+}
+
+type ProjectMembership @model {
+  id: ID!
+  user: User! @connection(name: "userProjectMembership")
+  mission: Project! @connection(name: "projectProjectMembership")
+}
+
+type Mutation {
+  addUser(id: String, email: String): String @function(name: "addUser-${env}")
+}
